@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UnionTech UT</title>
+    <link rel="stylesheet" href="Assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="top-bar-white">
+            <div class="logo-container">
+                <img src="./assets/img/UnionTech - White.png" alt="UnionTech Logo" class="logo">
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#sobre-nos">Sobre nós</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="social-media">
+                <a href="https://www.instagram.com/_uniontech/?igsh=MW03YjJndGNIMGYwag%3D%3D" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/un1ontech" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+        <div class="top-bar-gray">
+            <p>Role a página e dê um passo além da tela conosco.</p>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h1>Bem-vindo à UnionTech!</h1>
+            <p>Transformando ideias em realidade dando sempre um novo passo.</p>
+        </section>
+
+        <section id="projetos" class="projetos">
+            <h2>Nossos Projetos</h2>
+            <div class="projetos-container">
+                <div class="projeto">
+                    <h3>PetStop</h3>
+                    <p>Pontos de rações para animais de rua.</p>
+                    <br><br>
+                    <div class="buttons">
+                        <a href="Classes/petstop.html" class="btn">Saiba Mais</a>
+                    </div>
+                </div>
+                <div class="projeto">
+                    <h3>Sistema Único de Merenda Escolar (SUME)</h3>
+                    <p>Uma aplicação que auxilie na organização de alimentos escolares.</p>
+                    <br>
+                    <br>
+                    <div class="buttons">
+                        <a href="https://sume.42web.io/" class="btn">Acessar site</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre-nos" class="sobre-nos">
+            <h2>Sobre Nós</h2>
+            <p>Somos uma empresa apaixonada por tecnologia que acredita que a inovação aliada ao cuidado pode transformar o mundo. Na UnionTech, cada passo além da tela é um compromisso com um futuro mais brilhante. Unimos tecnologia e a humanidade para criar experiências que fazem a diferença.</p>
+            <p>Em nossa logo, foram utilizadas apenas as letra “U” e “T” que formam as iniciais da empresa. Para as cores, decidimos usar preto e branco para representar algo minimalista e profissional. Além disso, o intuito da nossa logo é passar algo de seriedade e modernidade.</p>
+            <div class="us-container">
+                <div class="us">
+                    <h3>Missão</h3>
+                    <p>O objetivo da UNIONTECH é trazer a tecnologia de forma mais fácil e intuitiva para as pessoas com difícil acesso.Assim criando projetos sociais com fins lucrativos apenas para manter os projetos, que seriam destinados ao público apoiador.</p>
+                </div>
+                <div class="us">
+                    <h3>Visão</h3>
+                    <p>A UNIONTECH visa que cada vez mais possamos masterizar nosso trabalhos e projetos prestados, assim trazendo excelência e maestria para os nossos clientes e parceiros.</p>
+                </div>
+                <div class="us">
+                    <h3>Valores</h3>
+                    <p>O respeito entre os colaboradores da empresa e harmonia em desenvolvimento de os seus projetos, para que assim possa ser aos clientes sem nenhum problema.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="contato">
+            <h2>Contato</h2>
+            <form action="Classes/send-email.php"post">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 UnionTech UT. Todos os direitos reservados. <a href="Classes/termos.html" class="btn">Termos de uso</a></p>
+    </footer>
+    <script src="Assets/js/script.js"></script>
+</body>
+
+</html>
